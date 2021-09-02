@@ -13,6 +13,7 @@ close.addEventListener('click', () => {
     visible.classList.remove('visible');
     document.querySelector('.links-menu-bg').style.display='none';
     document.body.style.overflow='unset';
+    /*çalış artık gevşek*/
 });
 
 moon.onclick = function (event) {
