@@ -6,11 +6,13 @@ let moon = document.querySelector('.moon');
 Hmenu.addEventListener('click', () => {
     visible.classList.add('visible');
     document.querySelector('.links-menu-bg').style.display='block';
+    document.body.style.overflow='hidden';
 });
 
 close.addEventListener('click', () => {
     visible.classList.remove('visible');
     document.querySelector('.links-menu-bg').style.display='none';
+    document.body.style.overflow='unset';
 });
 
 moon.onclick = function (event) {
